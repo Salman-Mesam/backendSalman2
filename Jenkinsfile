@@ -1,33 +1,19 @@
 pipeline {
-
-  agent {
-    label 'maven'
-  }
-
+  agent { label "linux" }
   stages {
-  
-    stage('Deploy') {
+    stage("build") {
       steps {
-        echo 'Deploying...Salman Mesam Ali.'
-        script {
+        sh """
+          docker build -t springboot-docker1 .
 
-          openshift.withCluster() { 
-  openshift.withProject("8dfoodh-dev") { 
-    def deployment = openshift.selector("dc", "backend-salman-7000") 
-    
-   if(!deployment.exists()){ 
-      openshift.newApp('backend-salman-7000', "--as-deployment-config").narrow('svc').expose() 
-    } 
-    
-    timeout(2) { 
-      openshift.selector("dc", "backend-salman-7000").related('pods').untilEach(1) { 
-        return (it8dfoodh-devhase == "Running") 
-      } 
-    } 
-  } 
-}
-
-        }
+        """
+      }
+    }
+    stage("run") {
+      steps {
+        sh """
+          docker run --rm springboot-docker1
+        """
       }
     }
   }
