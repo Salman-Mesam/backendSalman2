@@ -8,7 +8,7 @@ pipeline {
   
     stage('Deploy') {
       steps {
-        echo 'Deploying...Salman.'
+        echo 'Deploying...Salman Mesam.'
         script {
 
           openshift.withCluster() { 
