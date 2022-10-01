@@ -84,6 +84,46 @@
       "message": "hEY Gurdy,\nPls approve my changes!",
       "revId": "96bae5cbc4ce5f862b35f197d4d286af70020761",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "90606de5_34482fab",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1020573
+      },
+      "writtenOn": "2022-10-01T18:16:58Z",
+      "side": 1,
+      "message": "Good job on the code",
+      "revId": "96bae5cbc4ce5f862b35f197d4d286af70020761",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1ab80915_7a564faf",
+        "filename": "README.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1020573
+      },
+      "writtenOn": "2022-10-01T18:16:58Z",
+      "side": 1,
+      "message": "Looks really great!",
+      "range": {
+        "startLine": 2,
+        "startChar": 1,
+        "endLine": 2,
+        "endChar": 3
+      },
+      "revId": "96bae5cbc4ce5f862b35f197d4d286af70020761",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     }
   ]
 }
