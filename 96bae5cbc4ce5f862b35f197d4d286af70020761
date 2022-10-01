@@ -67,6 +67,23 @@
       "message": "hey!",
       "revId": "96bae5cbc4ce5f862b35f197d4d286af70020761",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3be8ecc0_8d7e4551",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1020572
+      },
+      "writtenOn": "2022-10-01T18:09:38Z",
+      "side": 1,
+      "message": "hEY Gurdy,\nPls approve my changes!",
+      "revId": "96bae5cbc4ce5f862b35f197d4d286af70020761",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     }
   ]
 }
